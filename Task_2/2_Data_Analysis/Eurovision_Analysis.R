@@ -105,7 +105,7 @@ tmpplot <- ggplot(grand_final.votes, aes(x=To, y=Points)) +
   geom_col(fill = "steelblue") +
   theme(axis.text.x = element_text(angle=90, vjust=0.5)) + 
   labs(x='Country',y='Total Points (in thousands)') +
-  ggtitle('Plot of total points received per country in grand-final.') +
+  ggtitle('Plot of total points received for each country in the grand-final.') +
   scale_y_continuous(labels=function(x)x/1000)  +
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 90, hjust = 1,vjust=0.2))
